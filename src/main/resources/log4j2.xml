@@ -8,7 +8,7 @@
 	    
 	    <!-- name可以自定义，作用是在Loggers中AppenderRef中使用 -->
         <!-- fileName定义输出文件名称（当前文件） -->
-        <!-- filePattern定义输出文件名称（文件满足条件后自动截断，生成历史文件） -->
+        <!-- filePattern定义输出文件名称（文成历史件满足条件后自动截断，生文件） -->
         <RollingFile name="DEBUG"
                      fileName="my-blog-logs/debug/debug.log"
                      filePattern="my-blog-logs/error/%d{MM-dd-yyyy}-debug.log">
